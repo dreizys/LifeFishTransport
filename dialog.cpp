@@ -111,7 +111,7 @@ void Dialog::readSerial(){
                       qDebug() << bufferSplit[0];
                       qDebug() << bufferSplit[1];
 
-                      Dialog::updateLCD(bufferSplit[1]);
+                     // Dialog::updateLCD(bufferSplit[1]);
                      //qDebug() << bufferSplit;
                      if (bufferSplit[1].toFloat() < 8){
                       palette->setColor(QPalette::WindowText, Qt::red);
